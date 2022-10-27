@@ -1,0 +1,5 @@
+Creating a flutter project file easiest way
+open cmd
+1.flutter create name
+2. cd name
+3. code .
