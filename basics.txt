@@ -16,4 +16,19 @@ Lists: List<string> a=[' ',' '];IT has properties like a.length; , a.add(' ');
 SETS : strings name ={' ', ' '};
 MAPS : var map= { 'name':'Ak' , 'age': 20};
 
-Nullable :
+Nullable :Making data types nullable
+List<string>? names=['Ak','S']; // names can be nullable but values cant be nullable;
+List<string?>? names=['Ak','S',null]; names can be null as well as the strings inside it can be null
+int? age=20;
+age=null;
+
+Cherry picking non null value we can use infix operator ??
+string a=null ,b=null,c='Ak';
+string firstNonNull = a??b??c; // Starts from left and goes on till it finds a non null value;
+
+??= operator --> called null awarness operator
+string ? name=firstname;
+name??=lastname; //if name value is null assign its value to lastname.
+
+accessing properties in nullable datatypes
+int len= names?.length ?? 0; //if names is null it assigns 0
