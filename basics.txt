@@ -3,3 +3,17 @@ open cmd
 1.flutter create name
 2. cd name
 3. code .
+
+hot reload -> just save
+
+operators can be used on strings like numbers.
+
+Funvtions same as c++ but if it is too short we can use: string name()=> "hi";
+
+\is the escape sequence
+
+Lists: List<string> a=[' ',' '];IT has properties like a.length; , a.add(' ');
+SETS : strings name ={' ', ' '};
+MAPS : var map= { 'name':'Ak' , 'age': 20};
+
+Nullable :
