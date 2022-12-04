@@ -21,6 +21,7 @@ MAPS : var map= { 'name':'Ak' , 'age': 20};
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ch-5
 Nullable :Making data types nullable
+
 List<string>? names=['Ak','S']; // names can be nullable but values cant be nullable;
 List<string?>? names=['Ak','S',null]; names can be null as well as the strings inside it can be null
 int? age=20;
@@ -37,5 +38,10 @@ name??=lastname; //if name value is null assign its value to lastname.
 accessing properties in nullable datatypes use ?.
 int len= names?.length ?? 0; //if names is null it assigns 0
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ch-6
+ch-6 
+Dart enumerations and objects
+
+Enumeration
+categorise related items under enumeration so that they can be referred later. Ex: enum Person{ firstName, lastName, age}; inside another function we can call it
+                                                                                  using  print(Person.firstName);
 
