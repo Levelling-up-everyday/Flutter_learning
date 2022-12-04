@@ -1,4 +1,5 @@
 Dart is an object oriented programming  language.
+
 Creating a flutter project file easiest way
 open cmd
 1.flutter create name
@@ -12,12 +13,12 @@ operators can be used on strings like numbers.
 Funvtions same as c++ but if it is too short we can use: string name()=> "hi";
 
 \is the escape sequence
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ch-4
 Lists: List<string> a=[' ',' '];IT has properties like a.length; , a.add(' ');
 SETS : strings name ={' ', ' '};
 MAPS : var map= { 'name':'Ak' , 'age': 20};
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ch-5
 Nullable :Making data types nullable
 List<string>? names=['Ak','S']; // names can be nullable but values cant be nullable;
@@ -35,5 +36,6 @@ name??=lastname; //if name value is null assign its value to lastname.
 
 accessing properties in nullable datatypes use ?.
 int len= names?.length ?? 0; //if names is null it assigns 0
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ch-6
 
