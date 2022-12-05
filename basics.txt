@@ -61,3 +61,13 @@ class person{
 Inheritance: using 'extends ' keyword
 
 Abstract class is like a normal class which cannot be instantiated/ has instances. Use abstract keyword to create abstract class. Ex: abstract class a{}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ch 15
+Git is a software used to store the changes made in the source code and who made it and what changes and the timesstamp. Its like an empty bucket that keeps track of all the changes.Git doesnt automatically commit we need to commit
+
+In cmd go to file location type git init . 
+git commit -m "comment"
+git log // All the commands made and who made it.
+Github is a cloud service provider for git
+ssh key is like an identifer that allows to commit changes from our harddisk
+gpg signature is to verify that i am only holding the ssh key
