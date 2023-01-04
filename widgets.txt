@@ -1,0 +1,2 @@
+Statefull vs stateless
+stateful widget keeps track of the changing data like counter
