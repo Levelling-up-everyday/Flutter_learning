@@ -70,10 +70,12 @@ For example outside a class we can say --> extension Run on nameoftheclass{}
 Future--> To delay for example
 Skipping async.....
 
----------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Adding dependicies in flutter
 flutter pub add firebase_analytics, firebase_auth ,firebase_core, cloud_firestore
---------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Skipping ios and android setup
+----------------------------------------------------------------------------------------------
 ch 15
 Git is a software used to store the changes made in the source code and who made it and what changes and the timesstamp. Its like an empty bucket that keeps track of all the changes.Git doesnt automatically commit we need to commit
 
